@@ -1,0 +1,49 @@
+.input_bar {
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.submit_bar {
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+label {
+  text-shadow: 2px 2px black;
+}
+
+.elsa {
+  position: absolute;
+  left: 5%;
+  margin-top: 10%;
+  height: 435px;
+  width: 540px;
+}
+
+#Contact > div > h1 {
+  text-shadow: 5px 5px black;
+  letter-spacing: 0.6rem;
+}
+
+@media (max-width: 1023px) {
+  .elsa {
+    left: -5%;
+    margin-top: 25%;
+    height: 385px;
+    width: 480px;
+  }
+}
+@media (max-width: 767px) {
+  .elsa {
+    display: none;
+  }
+  label {
+    text-shadow: 1px 1px black;
+  }
+  #Contact > div > h1 {
+    text-shadow: 3px 3px black;
+    letter-spacing: 0.4rem;
+  }
+}

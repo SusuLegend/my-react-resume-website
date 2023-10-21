@@ -1,0 +1,24 @@
+.Blob {
+  padding-top: 30px;
+  box-shadow: 0 0 50px 20px lightblue;
+  animation: anim_blob 6s linear infinite forwards;
+  position: relative;
+}
+
+@keyframes anim_blob {
+  0% {
+    border-radius: 48% 52% 52% 48% / 51% 48% 52% 49%;
+  }
+  20% {
+    border-radius: 58% 42% 54% 46% / 48% 40% 60% 52%;
+  }
+  40% {
+    border-radius: 52% 48% 27% 73% / 59% 48% 52% 41%;
+  }
+  60% {
+    border-radius: 59% 41% 39% 61% / 44% 60% 40% 56%;
+  }
+  100% {
+    border-radius: 48% 52% 52% 48% / 51% 48% 52% 49%;
+  }
+}

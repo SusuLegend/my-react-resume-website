@@ -1,0 +1,213 @@
+.card_skill {
+  width: 320px;
+  height: 450px;
+  background-color: #053b50;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card_skill:hover {
+  transform: scale(1.1);
+}
+.card_header {
+  height: 180px;
+  background: linear-gradient(to bottom, #64ccc5, #176b87);
+  border-radius: 0% 0% 50% 50% / 20% 20% 80% 80%;
+}
+
+.card_header > img {
+  width: 120px;
+  height: 120px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text_description {
+  font-size: 12px;
+  text-shadow: 2px 2px black;
+}
+
+.progress_circle,
+h3 {
+  text-shadow: 4px 4px black;
+}
+
+.soft_skill {
+  text-shadow: 2px 2px black;
+}
+.skill_header {
+  letter-spacing: 1.5rem;
+  text-shadow: 8px 8px black;
+}
+
+.skill_slider {
+  border: 3px solid #176b87;
+  box-shadow: 10px 10px 8px lightblue;
+  background-color: #176b87;
+}
+
+.bar {
+  width: 100%;
+  height: 12px;
+  background-color: black;
+  border-radius: 25px;
+  position: relative;
+  box-shadow: 4px 4px 4px black;
+}
+
+.bar > #problem_solving {
+  width: 92%;
+  height: 12px;
+  background-color: #4169e1;
+  left: 0;
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px 4px #4169e1;
+}
+
+.bar > #research {
+  width: 85%;
+  height: 12px;
+  background-color: #4169e1;
+  left: 0;
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px 4px #4169e1;
+}
+
+.bar > #creative_idea {
+  width: 90%;
+  height: 12px;
+  background-color: #4169e1;
+  left: 0;
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px 4px #4169e1;
+}
+
+.bar > #teamwork {
+  width: 81%;
+  height: 12px;
+  background-color: #4169e1;
+  left: 0;
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px 4px #4169e1;
+}
+
+.bar > #presentation {
+  width: 79%;
+  height: 12px;
+  background-color: #4169e1;
+  left: 0;
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px 4px #4169e1;
+}
+
+.box_swipe > .swiper {
+  width: 250px;
+  height: 250px;
+  left: 54%;
+  top: 40%;
+  margin-left: -150px;
+  margin-top: 80px;
+}
+
+.box_swipe > .swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.cube_image {
+  height: 250px;
+  width: 250px;
+}
+
+@media (max-width: 1280px) {
+  .card_skill {
+    width: 256px;
+    height: 360px;
+  }
+  .card_header {
+    height: 130px;
+  }
+  .card_header > img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card_skill {
+    width: 224px;
+    height: 315px;
+  }
+  .skill_header {
+    letter-spacing: 1rem;
+    text-shadow: 4px 4px black;
+  }
+  .progress_circle,
+  h3,
+  .soft_skill {
+    text-shadow: 2px 2px black;
+  }
+  .card_header {
+    height: 110px;
+  }
+  .card_header > img {
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+  }
+  .text_description {
+    font-size: 10px;
+    text-shadow: 1px 1px black;
+  }
+}
+
+@media (max-width: 768px) {
+  .card_skill {
+    width: 192px;
+    height: 270px;
+  }
+  .skill_header {
+    letter-spacing: 1rem;
+    text-shadow: 4px 4px black;
+  }
+  .progress_circle,
+  h3,
+  .soft_skill {
+    text-shadow: 3px 3px black;
+  }
+  .card_header {
+    height: 100px;
+  }
+  .card_header > img {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+  }
+  .text_description {
+    font-size: 8px;
+    text-shadow: 0.5px 0.5px black;
+  }
+  .box_swipe > .swiper {
+    width: 150px;
+    height: 150px;
+    top: 40%;
+    left: 30%;
+    right: 25%;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .cube_image {
+    height: 150px;
+    width: 150px;
+  }
+}
