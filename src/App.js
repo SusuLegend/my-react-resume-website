@@ -7,10 +7,17 @@ import Skill_View from "./components/skill";
 import Project_View from "./components/project";
 import Contact_view from "./components/contact";
 import Footer_view from "./components/footer";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <div className="App w-full">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>My Resume Website</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="Jason Adika personal website application" />
+      </Helmet>
       <NavbarView />
       <Home_Banner />
       <About_View />
