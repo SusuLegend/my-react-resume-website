@@ -42,7 +42,7 @@ export default function NavbarView() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <span className="text-gray-50 font-pacifico pl-2">SusuLegend</span>
+                  <span className="text-gray-50 font-pacifico text-2xl pl-2">SusuLegend</span>
                 </div>
                 <div className="hidden sm:ml-auto sm:block">
                   <div className="flex space-x-4">
