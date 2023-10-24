@@ -19,7 +19,7 @@ export default [
   {
     id: 2,
     name: "MySQL",
-    description: "Programming Language",
+    description: "DataBase",
     percentage: 88,
     pic_url: mysql_pic,
   },
