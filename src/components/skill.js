@@ -114,7 +114,7 @@ function Skill_View() {
           </div>
         </div>
         <div className="box_swipe lg:w-1/2 w-full lg:mr-8 lg:ml-8 mr-4 ml-4 items-center justify-center">
-          <h3 className="md:m-4 md:p-4 m-2 p-2 font-kanit text-gray-100 font-bold lg:text-5xl md:text-4xl text-3xl">Specialised Skill</h3>
+          <h3 className="m-4 p-4 font-kanit text-gray-100 font-bold lg:text-5xl md:text-4xl text-3xl">Specialised Skill</h3>
           <Swiper
             effect={"cube"}
             grabCursor={true}
