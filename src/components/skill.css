@@ -211,3 +211,11 @@ h3 {
     width: 150px;
   }
 }
+
+@media (max-width: 320px) {
+  .box_swipe > .swiper {
+    left: 20%;
+    right: 25%;
+  }
+}
+
